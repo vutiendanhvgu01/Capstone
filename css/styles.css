@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  text-decoration: none !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+header {
+  z-index: 5 !important;
+}
+header .navbar {
+  background-color: transparent !important;
+}
+header .navbar .container-fluid {
+  padding: 20px 0 !important;
+  position: relative;
+  margin-left: 150px !important;
+}
+header .navbar .container-fluid a {
+  color: #fb811e;
+  transition: all 0.5s;
+}
+header .navbar .container-fluid a:hover {
+  color: black;
+}
+header .navbar .container-fluid span {
+  position: absolute;
+  left: 2.5rem;
+  top: 5px;
+}
+header .navbar .container-fluid .collapse {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px !important;
+  position: relative;
+}
+header .navbar .container-fluid .collapse .dropdown .dropdown-menu {
+  position: absolute;
+  top: 2rem;
+  left: -9rem;
+  text-align: center;
+}
+header .navbar .container-fluid .collapse .dropdown .dropdown-menu li {
+  transition: all 0.5s;
+}
+header .navbar .container-fluid .collapse .dropdown .dropdown-menu li a {
+  font-size: 0.9rem !important;
+  color: black;
+  font-weight: 700;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+header .navbar .container-fluid .collapse .dropdown .dropdown-menu li a:hover {
+  color: #fb811e;
+  background-color: white;
+}
+header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item1 {
+  color: #fb811e !important;
+}
+
+/*Carousel*/
+.Carousel {
+  position: relative !important;
+}
+.Carousel .container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.Carousel .container .information-left {
+  width: 40%;
+}
+.Carousel .container .information-left h1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #f4f4f4;
+}
+.Carousel .container .information-left .bann-contents {
+  position: absolute;
+  z-index: 6;
+  top: 175px;
+  left: 150px;
+}
+.Carousel .container .information-left .bann-contents h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.Carousel .container .information-left .bann-contents a {
+  display: inline-block;
+  background-color: #fb811e;
+  height: 2rem;
+  border-radius: 40px;
+  padding-top: 0.3rem !important;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 900;
+  transition: all 0.5s;
+}
+.Carousel .container .information-left .bann-contents a:hover {
+  background-color: #009f4d;
+}
+.Carousel .container .information-right {
+  width: 60%;
+  margin-right: -5rem !important;
+}
+.Carousel .container .information-right .carousel .carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  background-color: #d4d4d4 !important;
+  margin: 0 10px !important;
+}
+.Carousel .container .information-right .carousel .carousel-inner .carousel-item img {
+  width: 100% !important;
+  height: 590px;
+  border-radius: 0 0 0 40px;
+}
+.Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption {
+  width: 200px;
+  position: absolute;
+  text-align: center;
+  left: 500px;
+}
+.Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  color: white;
+}
+.Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption p {
+  color: white;
+}
