@@ -108,7 +108,7 @@ header {
                 a{
                     display: inline-block;
                     background-color: #fb811e;
-                    height:2rem;
+                    height:2.5rem;
                     border-radius: 40px;
                     padding-top: 0.3rem !important;
                     text-transform: uppercase;
@@ -235,6 +235,94 @@ header {
                             -webkit-box-shadow: -1px 2px 36px 15px rgba(0,0,0,0.46);
                             -moz-box-shadow: -1px 2px 36px 15px rgba(0,0,0,0.46);
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*FEATURES*/
+.feature{
+    position: relative;
+    background-color: #009f4d;
+    .feature-top{
+        position: absolute;
+        width:100%;
+        h1{
+            font-size: 8rem;
+            font-weight: 800;
+            color: rgba(32,201,151,0.2);
+        }
+    }
+    .feature-body{
+        width: 80%;
+        margin: auto !important;
+        .feature-title{
+            
+            h2{
+               font-size: 1rem;
+                color: white;
+                font-weight: 600;
+            }
+            h1{
+                font-size: 2rem;
+                color:white;
+                font-weight: 900;
+            }
+        }
+        .feature-describe{
+            p{  
+                display: block;
+                font-size: 0.8rem;
+                color: white;
+            }
+        }
+        
+    }
+    .feature-bottom{
+        width: 80%;
+        margin:auto !important;
+        .feature-items{
+            padding: 1rem 0;
+            margin:auto;
+            .feature-content{
+                width: 95%;
+                border-radius: 10px;
+                 background-color: white;
+                .content-header{
+                    a{
+                        display: inline-block;
+                        img{
+                            border-radius: 10px 10px 0 0;
+                            width:100% !important; 
+                        }
+                    }
+                    
+                }
+                .content-body{
+                    width: 90%;
+                    margin:auto !important;
+                    h2{ 
+                        border-radius: 40px;
+                        margin: 0.5rem 0 !important;
+                        color: #009f4d;
+                        text-align: center;
+                        font-size: 0.9rem;
+                        display: inline-block;
+                        width: 40%;
+                        height: 1.5rem;
+                        background-color: rgba(0,159,77,0.16);
+                        padding: 0.2rem 0 !important;
+                    }
+                    h1{
+                        font-size: 1rem;
+                        font-weight: 800;
+                    }
+                    p{  
+                        margin: 0.5rem 0 !important;
+                        display: inline-block;
+                        font-size: 0.8rem;
                     }
                 }
             }
