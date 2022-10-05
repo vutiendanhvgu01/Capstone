@@ -72,6 +72,7 @@ header {
 
 /*Carousel*/
 .Carousel{
+    max-height: 590px !important;
     position: relative !important;
     .container{
         display: flex !important;
@@ -96,7 +97,7 @@ header {
                 left:150px;
                 h3{
                     font-size: 2rem;
-                    font-weight: 900;
+                    font-weight: 700;
                 }
                 p{
 
@@ -130,17 +131,20 @@ header {
                     margin: 0 10px !important;
                 }
                 .carousel-inner{
+                    max-height: 590px;
+                    border-radius:  0 0 0 40px;
                     .carousel-item{
+                        height: 100%;
+                        border-radius:  0 0 0 40px;
                         img{
                             width:100% !important;
-                            height:590px;
                             border-radius: 0 0 0 40px;
                         }
                         .carousel-caption{
                             width: 200px;
                             position: absolute;
                             text-align: center;
-                            left: 500px;
+                            left: 450px;
                             h5{
                                 color:white;
                             }
@@ -168,7 +172,7 @@ header {
                     color: #fb811e;
                 }
                 h3{
-                    font-weight: 400;
+                    font-weight: 700;
                 }
                 p{
                     font-size: 0.8rem;
@@ -184,7 +188,7 @@ header {
                     font-size: 0.8rem;
                     font-weight: 900;
                     transition: all 0.5s;
-                    width: 30%;
+                    width: 40%;
                     &:hover{
                         background-color: #009f4d;
                     }

@@ -63,6 +63,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
 
 /*Carousel*/
 .Carousel {
+  max-height: 590px !important;
   position: relative !important;
 }
 .Carousel .container {
@@ -89,7 +90,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
 }
 .Carousel .container .information-left .bann-contents h3 {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 .Carousel .container .information-left .bann-contents a {
   display: inline-block;
@@ -117,16 +118,23 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   background-color: #d4d4d4 !important;
   margin: 0 10px !important;
 }
+.Carousel .container .information-right .carousel .carousel-inner {
+  max-height: 590px;
+  border-radius: 0 0 0 40px;
+}
+.Carousel .container .information-right .carousel .carousel-inner .carousel-item {
+  height: 100%;
+  border-radius: 0 0 0 40px;
+}
 .Carousel .container .information-right .carousel .carousel-inner .carousel-item img {
   width: 100% !important;
-  height: 590px;
   border-radius: 0 0 0 40px;
 }
 .Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption {
   width: 200px;
   position: absolute;
   text-align: center;
-  left: 500px;
+  left: 450px;
 }
 .Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption h5 {
   color: white;
@@ -147,7 +155,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   color: #fb811e;
 }
 .w3l-features .container .main-cont-wthree-2 .feature-grid-left h3 {
-  font-weight: 400;
+  font-weight: 700;
 }
 .w3l-features .container .main-cont-wthree-2 .feature-grid-left p {
   font-size: 0.8rem;
@@ -163,7 +171,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   font-size: 0.8rem;
   font-weight: 900;
   transition: all 0.5s;
-  width: 30%;
+  width: 40%;
 }
 .w3l-features .container .main-cont-wthree-2 .feature-grid-left a:hover {
   background-color: #009f4d;
