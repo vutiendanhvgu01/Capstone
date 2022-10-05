@@ -5,13 +5,9 @@
     box-sizing: border-box !important;
     list-style: none !important;
     text-decoration: none !important;
-    font-family: 'Source Sans Pro', sans-serif !important ;
+    
     font-size: 20px;
 
-}
-body{
-    
-    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 header {
@@ -172,7 +168,7 @@ header {
                     color: #fb811e;
                 }
                 h3{
-                    font-weight: 1000;
+                    font-weight: 400;
                 }
                 p{
                     font-size: 0.8rem;
@@ -256,7 +252,7 @@ header {
         }
     }
     .feature-body{
-        width: 80%;
+        width: 90%;
         margin: auto !important;
         .feature-title{
             
@@ -281,7 +277,7 @@ header {
         
     }
     .feature-bottom{
-        width: 80%;
+        width: 90%;
         margin:auto !important;
         .feature-items{
             padding: 1rem 0;
@@ -324,6 +320,77 @@ header {
                         display: inline-block;
                         font-size: 0.8rem;
                     }
+                }
+            }
+        }
+    }
+}
+/*Serviceblock*/
+.w3l-servicesblock{
+    .container{
+        width: 90% !important;
+        margin:auto !important;
+        .about-right-faq{
+            padding-top: 130px !important;
+            h5{
+                color: #fb811e;
+                font-weight: 700;
+                font-size: 1rem;
+
+            }
+            h3{
+                font-weight: 650;
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 0.7rem;
+            }
+            .two-grids{
+                .grids_info{
+                    span{
+                       
+                        color: #fb811e;
+                    }
+                    .detail{
+                        margin-left: 0.5rem !important;
+                        h4{
+                            font-size: 1.2rem;
+                            font-weight: 650;
+                        }
+                        p{
+
+                        }
+                    }
+                }
+            }
+        }
+        .left-wthree-img{
+            position: relative;
+            margin-left: 60px !important;
+            img{
+                border-radius: 20px;
+            }
+            .imginfo__box{
+                position: absolute;
+                bottom: 50px;
+                right: 235px;
+                background-color: #fb811e;
+                text-align: center;
+                width: 60%;
+                height: 7rem;
+                border-radius: 0 0 80px 0;
+                padding-top: 0.5rem !important;
+                h6{
+                    
+                    font-weight: 650;
+                    font-size: 3rem;
+                    color: white;
+                }
+                p{
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                    font-weight: 650;
                 }
             }
         }

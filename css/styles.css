@@ -5,12 +5,7 @@
   box-sizing: border-box !important;
   list-style: none !important;
   text-decoration: none !important;
-  font-family: "Source Sans Pro", sans-serif !important;
   font-size: 20px;
-}
-
-body {
-  font-family: "Source Sans Pro", sans-serif !important;
 }
 
 header {
@@ -152,7 +147,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   color: #fb811e;
 }
 .w3l-features .container .main-cont-wthree-2 .feature-grid-left h3 {
-  font-weight: 1000;
+  font-weight: 400;
 }
 .w3l-features .container .main-cont-wthree-2 .feature-grid-left p {
   font-size: 0.8rem;
@@ -231,7 +226,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   color: rgba(32, 201, 151, 0.2);
 }
 .feature .feature-body {
-  width: 80%;
+  width: 90%;
   margin: auto !important;
 }
 .feature .feature-body .feature-title h2 {
@@ -250,7 +245,7 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   color: white;
 }
 .feature .feature-bottom {
-  width: 80%;
+  width: 90%;
   margin: auto !important;
 }
 .feature .feature-bottom .feature-items {
@@ -293,4 +288,64 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   margin: 0.5rem 0 !important;
   display: inline-block;
   font-size: 0.8rem;
+}
+
+/*Serviceblock*/
+.w3l-servicesblock .container {
+  width: 90% !important;
+  margin: auto !important;
+}
+.w3l-servicesblock .container .about-right-faq {
+  padding-top: 130px !important;
+}
+.w3l-servicesblock .container .about-right-faq h5 {
+  color: #fb811e;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.w3l-servicesblock .container .about-right-faq h3 {
+  font-weight: 650;
+  font-size: 1.8rem;
+}
+.w3l-servicesblock .container .about-right-faq p {
+  font-size: 0.7rem;
+}
+.w3l-servicesblock .container .about-right-faq .two-grids .grids_info span {
+  color: #fb811e;
+}
+.w3l-servicesblock .container .about-right-faq .two-grids .grids_info .detail {
+  margin-left: 0.5rem !important;
+}
+.w3l-servicesblock .container .about-right-faq .two-grids .grids_info .detail h4 {
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+.w3l-servicesblock .container .left-wthree-img {
+  position: relative;
+  margin-left: 60px !important;
+}
+.w3l-servicesblock .container .left-wthree-img img {
+  border-radius: 20px;
+}
+.w3l-servicesblock .container .left-wthree-img .imginfo__box {
+  position: absolute;
+  bottom: 50px;
+  right: 235px;
+  background-color: #fb811e;
+  text-align: center;
+  width: 60%;
+  height: 7rem;
+  border-radius: 0 0 80px 0;
+  padding-top: 0.5rem !important;
+}
+.w3l-servicesblock .container .left-wthree-img .imginfo__box h6 {
+  font-weight: 650;
+  font-size: 3rem;
+  color: white;
+}
+.w3l-servicesblock .container .left-wthree-img .imginfo__box p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 650;
 }
