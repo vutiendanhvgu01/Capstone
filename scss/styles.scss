@@ -34,12 +34,18 @@ header {
 
             }
             .collapse{
+                
                 display: flex;
                 justify-content: end;
                 margin-right: 100px !important;
                 position: relative;
                 .dropdown{
                     
+                    button{
+                        outline: none !important;
+                        border: none !important;
+                        box-shadow: none;
+                    }
                     .dropdown-menu{
                         position: absolute;
                         top: 2rem;
@@ -65,21 +71,34 @@ header {
                         }
                     }
                 }
+                .DarkandLight{
+                    margin: 0 10px !important;
+                    .danh{
+                        font-size: 0.5rem;
+                        color: white;
+                        &:hover{
+                            color: #fb811e;
+
+                        }
+                    }
+                }
             }
+            
         }
     }
 }
 
 /*Carousel*/
 .Carousel{
+    
     max-height: 590px !important;
     position: relative !important;
     .container{
-        display: flex !important;
-        justify-content: space-between !important;
+        // display: flex !important;
+        // justify-content: space-between !important;
         .information-left{
-            width:40%;
-            
+            // width:40%;
+           
             h1{
                 position: absolute;
                 top:100px;
@@ -120,9 +139,10 @@ header {
             }
         }
         .information-right{
-            width:55%;
-            margin-right: -3.5rem !important;
+            // width:55%;
+            margin-left: 27.5rem !important;
             .carousel{
+                width: 100% !important;
                 .carousel-indicators [data-bs-target]{
                     width: 10px !important;
                     height: 30px !important;
@@ -133,6 +153,9 @@ header {
                 .carousel-inner{
                     max-height: 590px;
                     border-radius:  0 0 0 40px;
+                    @media screen and (max-width: 1280px){
+                        max-height: 500px;
+                    }
                     .carousel-item{
                         height: 100%;
                         border-radius:  0 0 0 40px;
@@ -144,7 +167,8 @@ header {
                             width: 200px;
                             position: absolute;
                             text-align: center;
-                            left: 450px;
+                            left: 25rem;
+                            bottom: 4rem;
                             h5{
                                 color:white;
                             }
@@ -160,7 +184,7 @@ header {
 }
 /**/
 .w3l-features{
-  
+    padding-top: 3rem !important;
     .container{
         margin:auto !important;
         .main-cont-wthree-2{

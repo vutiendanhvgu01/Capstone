@@ -37,6 +37,11 @@ header .navbar .container-fluid .collapse {
   margin-right: 100px !important;
   position: relative;
 }
+header .navbar .container-fluid .collapse .dropdown button {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
 header .navbar .container-fluid .collapse .dropdown .dropdown-menu {
   position: absolute;
   top: 2rem;
@@ -60,18 +65,21 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li a:hover {
 header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item1 {
   color: #fb811e !important;
 }
+header .navbar .container-fluid .collapse .DarkandLight {
+  margin: 0 10px !important;
+}
+header .navbar .container-fluid .collapse .DarkandLight .danh {
+  font-size: 0.5rem;
+  color: white;
+}
+header .navbar .container-fluid .collapse .DarkandLight .danh:hover {
+  color: #fb811e;
+}
 
 /*Carousel*/
 .Carousel {
   max-height: 590px !important;
   position: relative !important;
-}
-.Carousel .container {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-.Carousel .container .information-left {
-  width: 40%;
 }
 .Carousel .container .information-left h1 {
   position: absolute;
@@ -108,8 +116,10 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   background-color: #009f4d;
 }
 .Carousel .container .information-right {
-  width: 55%;
-  margin-right: -3.5rem !important;
+  margin-left: 27.5rem !important;
+}
+.Carousel .container .information-right .carousel {
+  width: 100% !important;
 }
 .Carousel .container .information-right .carousel .carousel-indicators [data-bs-target] {
   width: 10px !important;
@@ -121,6 +131,11 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
 .Carousel .container .information-right .carousel .carousel-inner {
   max-height: 590px;
   border-radius: 0 0 0 40px;
+}
+@media screen and (max-width: 1280px) {
+  .Carousel .container .information-right .carousel .carousel-inner {
+    max-height: 500px;
+  }
 }
 .Carousel .container .information-right .carousel .carousel-inner .carousel-item {
   height: 100%;
@@ -134,7 +149,8 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
   width: 200px;
   position: absolute;
   text-align: center;
-  left: 450px;
+  left: 25rem;
+  bottom: 4rem;
 }
 .Carousel .container .information-right .carousel .carousel-inner .carousel-item .carousel-caption h5 {
   color: white;
@@ -144,6 +160,9 @@ header .navbar .container-fluid .collapse .dropdown .dropdown-menu li .drop-item
 }
 
 /**/
+.w3l-features {
+  padding-top: 3rem !important;
+}
 .w3l-features .container {
   margin: auto !important;
 }
