@@ -151,7 +151,7 @@ header .navbar .container-fluid .collapse .DarkandLight .danh:hover {
   max-height: 590px;
   border-radius: 0 0 0 40px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 780px) {
   .Carousel .container .information-right .carousel .carousel-inner {
     max-height: 500px;
   }
