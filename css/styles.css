@@ -137,6 +137,11 @@ header .navbar .container-fluid .collapse .DarkandLight .danh:hover {
 .Carousel .container .information-right {
   margin-left: 27.5rem !important;
 }
+@media screen and (max-width: 780px) {
+  .Carousel .container .information-right {
+    width: 100% !important;
+  }
+}
 .Carousel .container .information-right .carousel {
   width: 100% !important;
 }

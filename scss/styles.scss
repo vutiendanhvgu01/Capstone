@@ -163,6 +163,10 @@ header {
         }
         .information-right{
             // width:55%;
+            @media screen and (max-width: 780px){
+                width:100% !important;
+                
+            }
             margin-left: 27.5rem !important;
             .carousel{
                 width: 100% !important;
@@ -178,6 +182,7 @@ header {
                     border-radius:  0 0 0 40px;
                     @media screen and (max-width: 780px){
                         max-height: 500px;
+                        
                     }
                     .carousel-item{
                         height: 100%;
