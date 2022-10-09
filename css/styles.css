@@ -60,6 +60,7 @@ header .navbar .container-fluid .collapse .dropdown button {
   outline: none !important;
   border: none !important;
   box-shadow: none;
+  color: white !important;
 }
 header .navbar .container-fluid .collapse .dropdown .dropdown-menu {
   position: absolute;
@@ -99,8 +100,24 @@ header.sticky {
   background: #fff;
 }
 
-.sticky {
-  padding: 10px 0;
+header.sticky .navbar .container-fluid {
+  padding: 10px 0 !important;
+}
+
+header.sticky .navbar .container-fluid a {
+  color: black;
+}
+
+header.sticky .navbar .container-fluid span {
+  top: -0.2rem;
+}
+
+header.sticky .navbar .container-fluid .collapse .dropdown button {
+  color: black !important;
+}
+
+header.sticky .navbar .container-fluid .collapse .DarkandLight .danh {
+  color: black;
 }
 
 /*Carousel*/
