@@ -95,6 +95,14 @@ header .navbar .container-fluid .collapse .DarkandLight .danh:hover {
   color: #fb811e;
 }
 
+header.sticky {
+  background: #fff;
+}
+
+.sticky {
+  padding: 10px 0;
+}
+
 /*Carousel*/
 .Carousel {
   max-height: 590px !important;

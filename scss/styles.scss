@@ -15,6 +15,8 @@ header {
     .navbar{
         
         background-color: transparent !important;
+       
+        
         .container-fluid{
             padding: 20px 0 !important;
             position: relative;
@@ -110,6 +112,13 @@ header {
         }
     }
 }
+header.sticky {
+    
+    background: #fff;
+   
+}
+
+
 
 /*Carousel*/
 .Carousel{

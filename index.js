@@ -52,3 +52,9 @@ function myFunction1(){
         lightContent[i].style.color = "#222222"
     }
   }
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("header")
+    
+    header.classList.toggle("sticky",window.scrollY > 0)
+   
+  })
