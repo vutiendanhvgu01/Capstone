@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap");
 * {
   padding: 0 !important;
   margin: 0 !important;
@@ -6,6 +5,10 @@
   list-style: none !important;
   text-decoration: none !important;
   font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -370,9 +373,25 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh {
   width: 90%;
   margin: auto !important;
 }
+@media screen and (max-width: 993px) {
+  .feature .feature-bottom .feature-items1 {
+    padding-top: 2rem !important;
+    margin-left: 10.5rem !important;
+  }
+}
+@media screen and (max-width: 786px) {
+  .feature .feature-bottom .feature-items1 {
+    margin-left: 0rem !important;
+  }
+}
 .feature .feature-bottom .feature-items {
   padding: 1rem 0;
   margin: auto;
+}
+@media screen and (max-width: 786px) {
+  .feature .feature-bottom .feature-items {
+    padding-top: 2rem !important;
+  }
 }
 .feature .feature-bottom .feature-items .feature-content {
   width: 95%;

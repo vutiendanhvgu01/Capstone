@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
 *{
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
     list-style: none !important;
     text-decoration: none !important;
+    // font-family: 'Poppins', sans-serif;
     
     font-size: 20px;
 
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header {
     z-index: 10 !important;
     .navbar{
@@ -399,13 +402,27 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
     .feature-bottom{
         width: 90%;
         margin:auto !important;
+        .feature-items1{
+            @media screen and(max-width: 993px){
+                padding-top: 2rem !important;
+                margin-left: 10.5rem !important;
+            }
+            @media screen and (max-width: 786px) {
+                margin-left: 0rem !important;
+            }
+        }
         .feature-items{
             padding: 1rem 0;
             margin:auto;
+            @media  screen and (max-width: 786px) {
+                padding-top: 2rem !important;
+                
+            }
             .feature-content{
                 width: 95%;
                 border-radius: 10px;
-                 background-color: white;
+                background-color: white;
+                
                 .content-header{
                     a{
                         display: inline-block;
