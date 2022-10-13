@@ -11,7 +11,7 @@
 }
 
 header {
-    z-index: 5 !important;
+    z-index: 10 !important;
     .navbar{
         
         background-color: transparent !important;
@@ -135,7 +135,7 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
 }
 /*Carousel*/
 .Carousel{
-    
+    width: 100% !important;
     max-height: 590px !important;
     position: relative !important;
     .container{
@@ -143,8 +143,14 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
         // justify-content: space-between !important;
         .information-left{
             // width:40%;
-           
+            @media screen and (max-width:786px)  {
+                position: absolute;
+                left: 3rem;
+                background-color: white !important;
+                bottom: 32rem;
+            }
             h1{
+                background-color: white;
                 position: absolute;
                 top:100px;
                 left:100px;
@@ -159,6 +165,14 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
                 z-index: 6;
                 top:175px;
                 left:150px;
+                @media screen and (max-width:786px)  {
+                   background-color: white;
+                   left: 6rem;
+                   width: 75%;
+                   
+                   border-radius: 10px;
+                   padding: 20px 20px !important;
+                }
                 h3{
                     font-size: 2rem;
                     font-weight: 700;
@@ -180,18 +194,32 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
                     &:hover{
                         background-color: #009f4d;
                     }
-                }
+                }    
             }
         }
         .information-right{
             // width:55%;
-            @media screen and (max-width: 780px){
-                width:100% !important;
-                
-            }
+            
+            
             margin-left: 27.5rem !important;
+            @media screen and (max-width: 786px) {
+                
+                width: 100%;
+                
+                margin-left: -1rem !important;
+            }
             .carousel{
-                width: 100% !important;
+                // width: 100% !important;
+                width:125%;
+                @media screen and(max-width: 1280px) {
+                    width: 100%;
+                   
+                }
+                @media screen and (max-width: 786px) {
+                    
+                    width: 175%;
+                    
+                }
                 .carousel-indicators [data-bs-target]{
                     width: 10px !important;
                     height: 30px !important;
@@ -202,8 +230,8 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
                 .carousel-inner{
                     max-height: 590px;
                     border-radius:  0 0 0 40px;
-                    @media screen and (max-width: 780px){
-                        max-height: 500px;
+                    @media screen and (max-width: 786px){
+                        max-height: 590px;
                         
                     }
                     .carousel-item{
@@ -214,17 +242,29 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
                             border-radius: 0 0 0 40px;
                         }
                         .carousel-caption{
-                            width: 200px;
+                            @media screen and (max-width: 1496px){
+                                bottom: 18rem;
+                                left: 35rem;                                
+                            }
+                            @media screen and (max-width:1280px) {
+                                left: 22rem;
+                                bottom: 4rem;
+                            }
+                            @media screen and (max-width:786px) {
+                                left: 22rem;
+                                bottom: 4rem;
+                            }
+                            width: 10rem;
                             position: absolute;
                             text-align: center;
-                            left: 25rem;
-                            bottom: 4rem;
+                            
                             h5{
                                 color:white;
                             }
                             p{
                                 color:white;
                             }
+
                         }
                     }
                 }
@@ -232,9 +272,11 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
         }
     }
 }
+
+
 /**/
 .w3l-features{
-    padding-top: 3rem !important;
+    padding-top: 10rem !important;
     .container{
         margin:auto !important;
         .main-cont-wthree-2{
@@ -254,9 +296,9 @@ header.sticky .navbar .container-fluid .collapse .DarkandLight .danh{
                 a{
                     display: inline-block;
                     background-color: #fb811e;
-                    height:2rem;
+                    height:2.5rem;
                     border-radius: 40px;
-                    padding-top: 0.3rem !important;
+                    padding-top: 0.4rem !important;
                     text-transform: uppercase;
                     color: white;
                     font-size: 0.8rem;
