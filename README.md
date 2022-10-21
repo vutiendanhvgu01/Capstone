@@ -1,8 +1,8 @@
 # Capstone
 
-- Link github:
-- Link youtube:
-- Link web:
+- Link github: https://github.com/vutiendanhvgu01/Capstone.git
+- Link youtube: https://youtu.be/xHOao702FH0
+- Link web: Farmstead-capstone.surge.sh
 - Họ và tên thành viên:
   - Vũ Tiến Danh
     - Các phần đã làm:
