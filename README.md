@@ -15,4 +15,7 @@
       - Header animation when scroll down
   - Nguyễn Thị Hương Thảo
     - Các phần đã làm:
-      -
+      - w3l-index
+      - Gallery
+      - w3l-clients-1
+      - Footer
